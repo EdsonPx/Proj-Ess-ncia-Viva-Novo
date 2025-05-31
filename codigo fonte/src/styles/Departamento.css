@@ -1,0 +1,115 @@
+/* Estilos para as páginas de departamento */
+
+/* Banner do departamento */
+.departamento-banner {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.departamento-banner h1 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  margin: 0;
+  padding: 0 1rem;
+}
+
+/* Conteúdo do departamento */
+.departamento-sobre,
+.departamento-historia,
+.departamento-plano {
+  padding: 3rem 0;
+}
+
+.departamento-sobre {
+  background-color: #fff;
+}
+
+.departamento-historia {
+  background-color: #f5f5f5;
+}
+
+.departamento-plano {
+  background-color: #fff;
+}
+
+.departamento-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.departamento-content p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+/* Plano de ação */
+.plano-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plano-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.plano-item h3 {
+  color: #4CAF50;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.plano-item p {
+  margin-bottom: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .departamento-banner {
+    height: 300px;
+  }
+  
+  .departamento-banner h1 {
+    font-size: 2.5rem;
+  }
+  
+  .departamento-content {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .departamento-banner {
+    height: 200px;
+  }
+  
+  .departamento-banner h1 {
+    font-size: 2rem;
+  }
+}
