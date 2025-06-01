@@ -1,0 +1,123 @@
+ Essência Viva
+
+Curso: Engenharia Informática
+
+Membros do grupo:
+1-Silana Naval 20230306
+2-Edson Peixoto 20221061
+
+
+Data:31.05.2025
+
+2. Resumo
+O "Essência Viva" é uma aplicação web que tem como objetivo promover a conexão com a natureza, facilitando a busca por atividades ao ar livre como trilhas, ciclismo, caiaque, entre outras. O projeto permite a interação entre utilizadores e instrutores, fornecendo informações sobre atividades, materiais necessários, inscrições e localização através de mapas. O sistema foi desenvolvido com React no front-end, Node.js no back-end e Firebase como base de dados e autenticação.
+
+
+3. Levantamento de Requisitos
+Funcionais:
+
+Visualizar lista de atividades
+
+Inscrever-se em atividades
+
+Instrutor pode adicionar e atualizar atividades
+
+Login para utilizadores, instrutores e administradores
+
+
+Não Funcionais:
+
+Visualizar dados conforme a estação do ano
+
+Sistema seguro de autenticação
+
+
+4. Tecnologias Utilizadas
+Front-end: React + Tailwind CSS + Vite
+
+Back-end: Node.js + Express
+
+Base de Dados: Firebase (Firestore)
+
+Outras: React Router, Firebase Authentication, ESLint, GitHub
+
+5. Modelagem do Sistema
+Diagrama de fluxo de navegação (ex: Login → Home → Atividades → Inscrição)
+
+Estrutura de coleção Firebase:
+
+atividades: título, descrição, estação, materiais, instrutor, etc.
+
+usuarios: nome, email, tipo (utilizador/instrutor/admin)
+
+inscricoes: id_usuario, id_atividade, data, estado
+
+6. Funcionalidades Implementadas
+Página inicial com dados do Firestore
+
+Login de utilizador com Firebase Auth
+
+Dashboard de instrutores
+
+Formulário de inscrição com verificação
+
+CRUD de atividades por instrutores
+
+Filtro por estação do ano
+
+Validações de formulário
+
+Linting e organização de código
+
+7. Interface e Usabilidade
+Descrição de páginas:
+
+Home
+
+Login
+
+Dashboard do instrutor
+
+Perfil
+
+Formulário de inscrição
+
+Responsividade com Tailwind CSS
+
+Considerações sobre acessibilidade e navegação
+
+8. Testes e Validações
+Testes manuais de navegação e envio de formulários
+
+Verificação de autenticação e permissões
+
+
+9. Dificuldades e Aprendizados
+Integração com Firebase
+
+Estruturação do back-end com Node.js
+
+Uso do React Router e gestão de estados
+
+Superação do erro de CORS e configuração do Firestore
+
+
+10. Melhorias Futuras
+Sistema de pagamentos integrado 
+
+Notificações por email
+
+Upload de fotos nas atividades
+
+11. Conclusão
+O desenvolvimento do projeto "Essência Viva" permitiu aplicar conhecimentos adquiridos ao longo do curso, promovendo a integração entre front-end e back-end, a gestão de dados com Firebase e a criação de um sistema útil e funcional. O projeto está preparado para futuras melhorias e integração de funcionalidades mais avançadas.
+
+12. Referências
+Firebase Docs: https://firebase.google.com/docs
+
+React Docs: https://reactjs.org/
+
+Node.js Docs: https://nodejs.org/
+
+Tailwind CSS Docs: https://tailwindcss.com/
+
